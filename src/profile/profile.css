@@ -1,0 +1,43 @@
+/* Viewproducts.css */
+
+/* Container for the Viewproducts component */
+.viewproducts-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+}
+
+/* Product list heading */
+.product-list-heading {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Product card styling */
+.view_all_tasks_card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Status message styling */
+.status-message {
+    font-size: 16px;
+    font-weight: bold;
+    color: #007bff;
+    margin-top: 20px;
+}
+
+/* JSON data display */
+.json-data {
+    background: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+    max-width: 100%;
+    white-space: pre-wrap;
+}

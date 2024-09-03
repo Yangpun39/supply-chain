@@ -1,0 +1,36 @@
+/* Wallet.css */
+
+/* Container for the Wallet component */
+.wallet-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Message paragraph styling */
+.wallet-message {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Connect Wallet button styling */
+.connect-button {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.connect-button:hover {
+    background-color: #0056b3;
+}
